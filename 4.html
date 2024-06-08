@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockify: Finance Trade News Stock Prediction and More</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="4.css">
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="bg">
+            <source src="Video.mkv">
+        </video>
+        <nav>
+            <img src="logo.jpg" class="logo"></img>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="https://finance.yahoo.com/" target="_blank">NEWS</a></li>
+                <li><a href="4.html">STOCKS</a></li>
+                <li><a href="5.html">CONTACT  US</a></li>
+            </ul>
+        </nav>
+        <main>
+          <form>
+            <header>
+              <h3>Stock Price Forecasting</h3>
+              <h5>The initial graph is based on data from the last 20 years. For more accurate predictions,please select a date range close to the current date where graph is consistent.</h5>
+            </header>
+            <label for="stock">Choose a company:</label>
+              <select name="stock" id="stock">
+                <option value="Select Stock">Reliance</option>
+                <option value="Select Stock">Coca Cola</option>
+                <option value="Select Stock">Tata Moters</option>
+                <option value="Select Stock">Infosys</option>
+                <option value="Select Stock">Bharti Airtel</option>
+                <option value="Select Stock">LIC</option>
+                <option value="Select Stock">TCS </option>
+                <option value="Select Stock">ITC</option>
+                <option value="Select Stock">ONGC</option>
+                <option value="Select Stock">SBI</option>
+                <option value="Select Stock">HDFC Bank</option>
+                <option value="Select Stock">ICICI Bank</option>
+                <option value="Select Stock">Tata Steel</option>
+                <option value="Select Stock">Bajaj Finance</option>
+              </select>
+            <p>Enter Start Date</p>
+            <div class="wrapper">
+              <i class="material-symbols-outlined">event_available</i>
+              <input type="date" placeholder="Start Date" />
+            </div>
+            <p>Enter End Date</p>
+            <div class="wrapper">
+              <i class="material-symbols-outlined">event_busy</i>
+              <input type="date" placeholder="End Date" />
+            </div>
+            <button>Generate graph</button>
+          </form>
+        </main>
+    </div>
+</body>
+</html>
